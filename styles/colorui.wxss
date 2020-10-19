@@ -1,0 +1,11 @@
+.cu-list > .cu-item .move {
+  width: 130rpx;
+  right: -40rpx !important;
+  top: 0;
+}
+.cu-list > .cu-item .move .toolAction {
+  background: rgba(211, 58, 49, 1) !important;
+}
+.cu-list > .cu-item.move-cur {
+  transform: translateX(-130rpx) !important;
+}

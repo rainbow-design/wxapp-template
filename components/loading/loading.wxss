@@ -1,0 +1,12 @@
+/* components/loading/loading.wxss */
+.loadingMask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 750rpx;
+  height: 100vh;
+  background: #fff;
+  z-index: 100000;
+  text-align: center;
+  line-height: 100vh;
+}

@@ -1,0 +1,12 @@
+button {
+  padding: 0 !important;
+  font-weight: 400 !important;
+  margin: 0 !important;
+}
+/*wxParse 样式重置  */
+.wxParse-img {
+  width: 100% !important;
+}
+.wxParse-inline {
+  display: inline !important;
+}

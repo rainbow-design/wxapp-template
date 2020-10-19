@@ -1,0 +1,5 @@
+<canvas
+  canvas-id="k-canvas"
+  class="myCanvas"
+  style="{{painterStyle}}{{customStyle}}"
+/>

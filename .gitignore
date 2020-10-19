@@ -1,0 +1,24 @@
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+.idea
+
+# Node.js
+node_modules/
+
+TODO.md
+package-lock.json
+project.config.json
+# 不需要版本锁定
+yarn.lock
+yarn-error.log
+npm-debug.log

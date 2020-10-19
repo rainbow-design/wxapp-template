@@ -1,0 +1,4 @@
+<!-- components/loading/loading.wxml -->
+<block wx:if="{{isLoading}}">
+  <view class="loadingMask"> Loading...</view>
+</block>

@@ -1,0 +1,6 @@
+<!--components/scrollText/scrollText.wxml-->
+<view class="content-box">
+  <view class="content-text oneLineStart" animation="{{animationData}}">
+    <text id="text" class="text">{{text}}</text></view
+  >
+</view>

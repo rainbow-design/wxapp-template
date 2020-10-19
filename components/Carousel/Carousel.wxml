@@ -1,0 +1,43 @@
+<wxs module="tools" src="../../filter/filter.wxs"></wxs>
+<view class="Carousel_wrap">
+  <!-- 图片区 -->
+  <swiper
+    current="{{swiperCurrentIndex}}"
+    circular="true"
+    bindchange="swiperChange"
+    indicator-dots="{{indicatorDots}}"
+    autoplay="true"
+    interval="5000"
+    duration="1000"
+    style="height:{{swiperHeight}};border-radius:{{borderRadius}};overflow:hidden"
+  >
+    <swiper-item
+      wx:for="{{bannerList}}"
+      bindtap="toHref"
+      wx:key="index"
+      bindtap="toHref"
+      data-link="{{item.link}}"
+    >
+      <image
+        src="{{item.img_url}}"
+        style="height:{{swiperHeight}};border-radius:{{borderRadius}}"
+        class="slide-image"
+      />
+    </swiper-item>
+  </swiper>
+  <!-- 关联按钮 -->
+  <view wx:if="{{dots}}" class="boxCell" style="top:{{dotTop}}">
+    <block
+      wx:for="{{bannerList.length > 1 ? bannerList:[]}}"
+      wx:for-index="index"
+      wx:key="index"
+    >
+      <view
+        id="{{index}}"
+        class="dot {{index === swiperCurrentIndex ? 'dot_active':''}}"
+        style="{{ index === swiperCurrentIndex ? styles__active :styles__normal}}"
+        bindtap="selectCarouselByIndex"
+      />
+    </block>
+  </view>
+</view>

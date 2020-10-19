@@ -1,0 +1,40 @@
+{
+  "name": "wxapp-template",
+  "version": "1.0.0",
+  "description": "微信小程序模板（原生）",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,jsx,vue,css,html,scss,md,json,wxml,wxss,wxs}",
+    "mock": "json-server ./mock/db.json"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,vue,css,html,scss,md,json,wxml,wxss,wxs}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "json-server": "^0.16.1",
+    "lint-staged": "^10.2.10",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "vod-wx-sdk-v2": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainbow-design/wxapp-template.git"
+  },
+  "keywords": [],
+  "author": "yanyue404",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainbow-design/wxapp-template/issues"
+  },
+  "homepage": "https://github.com/rainbow-design/wxapp-template#readme"
+}

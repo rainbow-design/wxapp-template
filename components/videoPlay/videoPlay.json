@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "modal": "/colorui/components/modal/modal",
+    "txv-video": "plugin://tencentvideo/video"
+  }
+}

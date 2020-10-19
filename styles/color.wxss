@@ -1,0 +1,12 @@
+input {
+  color: #333333;
+}
+.place_input {
+  color: #999999;
+}
+.search_input {
+  color: rgba(166, 167, 171, 1);
+}
+.time__create {
+  color: #999999;
+}

@@ -1,0 +1,4 @@
+/* colorui/components/badge/badge.wxss */
+.badge {
+  background: #f8295b !important;
+}

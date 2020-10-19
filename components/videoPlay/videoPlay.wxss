@@ -1,0 +1,32 @@
+.videoContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 190rpx;
+  width: 500rpx;
+  height: 890rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.video {
+  height: 30vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.video--mod_player {
+  height: 80vh;
+}
+
+.video--mod_player::before {
+  height: 60vh !important;
+}
+.video--mod_player .video--player_video {
+  display: none !important;
+}
+.mod_player {
+  width: 500rpx;
+  height: 890rpx;
+}

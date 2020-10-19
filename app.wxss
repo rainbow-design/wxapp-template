@@ -1,0 +1,10 @@
+/**app.wxss**/
+@import './styles/reset.wxss';
+@import './styles/global.wxss';
+@import './styles/flex.wxss';
+@import './styles/mixin_common.wxss';
+@import './styles/color.wxss';
+@import 'colorui/icon.wxss';
+@import 'colorui/main.wxss';
+@import 'colorui/animation.wxss';
+@import './styles/colorui.wxss';

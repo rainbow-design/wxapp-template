@@ -1,0 +1,2 @@
+<!--colorui/components/badge/badge.wxml-->
+<view class="cu-tag badge"> <slot></slot> </view>

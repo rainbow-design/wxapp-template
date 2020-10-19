@@ -1,0 +1,3 @@
+<view class="noMore_component">
+  <slot>没有更多啦</slot>
+</view>

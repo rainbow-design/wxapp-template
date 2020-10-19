@@ -1,0 +1,8 @@
+<view
+  class="cu-modal {{display?'show':''}}"
+  style="background: {{background}}"
+  catchtap="hideModal"
+>
+  <slot></slot>
+  <view class="cu-dialog" catchtap><slot name="dialog"></slot> </view>
+</view>

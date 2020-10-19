@@ -1,0 +1,15 @@
+<modal display="{{true}}" bind:hideModal="hideModal">
+  <txv-video
+    catchtap="showModal"
+    class="video"
+    vid="{{videoId}}"
+    playerid="txv1"
+    controls="{{true}}"
+    poster="{{coverURL}}"
+    autoplay="{{true}}"
+    show-fullscreen-btn="{{false}}"
+    loap="{{true}}"
+    enable-progress-gesture="{{true}}"
+    enable-play-gesture="{{true}}"
+  />
+</modal>
